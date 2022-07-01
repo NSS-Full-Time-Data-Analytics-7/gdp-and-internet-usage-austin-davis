@@ -13,7 +13,7 @@
      - rename the file to `internet_use.csv`
      - open it with a text editor (**not excel**) and take a look
 
-2.	Launch a Jupyter Notebook. 
+2.	Launch a Jupyter Notebook.
  - _*IMPORTANT:  You are likely to get errors along the way. When you do, read the errors to try to understand what is happening and how to correct it.*_
   - Use markdown cells to record your answers to any questions asked in this exercise. On the menu bar, you can toggle the cell type from `Code` to `Markdown`.
 
@@ -36,6 +36,7 @@
 10.	Merge the two DataFrames to one. Merge **all rows** from each of the two DataFrames. Call the new DataFrame `gdp_and_internet_use`.
 11.	Look at the first five rows of your new DataFrame to confirm it merged correctly.
 12.	Look at the last five rows to make sure the data is clean and as expected.
+
 13.	Subset the combined DataFrame to keep only the data for 2004, 2009, and 2014. Check that this happened correctly.
 14.	Create three new DataFrames, one for 2004, one for 2009, and one for 2014. Give them meaningful names that aren't too long.
 15.	Which country had the highest percentage of internet users in 2014? What was the percentage? (Try typing the first 3 letters of your DataFrame name and hitting the tab key for auto-complete options).
